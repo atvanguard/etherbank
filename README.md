@@ -1,5 +1,5 @@
 # Loan Escrow Smart Contract
-The smart contract matches ether lenders to borrowers. When the lender wishes to lend ether, her currency is help in the escrow. Then when a borrower wishes to avail the loan, she needs to deposit collateral (as decided by the lender) to the escrow.
+The smart contract matches ether lenders to borrowers. When the lender wishes to lend ether, her currency is held in the escrow. Then when a borrower wishes to avail the loan, she needs to deposit collateral (as decided by the lender) to the escrow.
 
 ## Lender
 The lender decides on the following parameters.
@@ -9,6 +9,7 @@ The lender decides on the following parameters.
 - Expected return payment
 - Due date of return payment
 - Expected collateral: list of (token, amount) 
+
 At this point the tokens that are willing to be lent will be held in escrow.
 
 ## Borrower
